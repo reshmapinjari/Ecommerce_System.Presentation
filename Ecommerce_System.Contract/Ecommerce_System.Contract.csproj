@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ecommerce_System.Entities\Ecommerce_System.Entities.csproj" />
+    <ProjectReference Include="..\Ecommerce_System.Exceptions\Ecommerce_System.Exceptions.csproj" />
+    <ProjectReference Include="..\Ecommerce_System.Helpers\Ecommerce_System.Helpers.csproj" />
+  </ItemGroup>
+
+</Project>

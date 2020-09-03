@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.7" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ecommerce_System.Businesslayer\Ecommerce_System.Businesslayer.csproj" />
+    <ProjectReference Include="..\Ecommerce_System.Contract\Ecommerce_System.Contract.csproj" />
+    <ProjectReference Include="..\Ecommerce_System.DataAccessLayer\Ecommerce_System.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\Ecommerce_System.Entities\Ecommerce_System.Entities.csproj" />
+    <ProjectReference Include="..\Ecommerce_System.Exceptions\Ecommerce_System.Exceptions.csproj" />
+    <ProjectReference Include="..\Ecommerce_System.Helpers\Ecommerce_System.Helpers.csproj" />
+    <ProjectReference Include="..\Ecommerce_System.Presentation\Ecommerce_System.Presentation.csproj" />
+     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.0" />
+  </ItemGroup>
+  
+ 
+
+
+</Project>
